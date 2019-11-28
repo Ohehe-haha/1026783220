@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			#top{
+				width: 100%;
+				height: 42px;
+				background-color: #3c3c3c;
+				overflow: hidden;
+				box-shadow: 0 1px 8px 1px #3C3C3C;
+			}
+			 ul li{
+				float: left;
+				list-style: none;
+				line-height: 42px;
+				color: #ccc;
+				
+			}
+			li{
+				font-size: 13px;
+				list-style: none;
+				cursor: pointer;
+			}
+			.i{
+				background-color: white;
+				width: 1px;
+				height: 14px;
+				line-height: 42px;
+				margin-top: 14px;
+			}
+			.ul1{
+				width: 30%;
+				display: flex;
+				justify-content: space-around;
+				float: left;
+			}
+			.ul2{
+				width: 30%;
+				float: right;
+				display: flex;
+				justify-content: space-around;
+				
+			}
+			#gwc{
+				width: 130px;
+				background-color: green;
+				text-align: center;
+				color: white;
+			}
+			#gwc:hover{
+				background-color:orange;
+			}
+			.body{
+				width: 1300px;
+				margin: auto;
+			}
+			.bodytop{
+				height: 110px;
+				position: relative;
+				
+			}
+			.img1{
+				position: absolute;
+				top: 50%;
+				margin-top: -30px;
+			}
+			.img2{
+				position: absolute;
+				top: 50%;
+				margin-top: -35px;
+				left: 70px;
+			}
+			.txt1{
+				color: black;
+				font-size: 18px;
+				font-weight: 400;
+			}
+			
+			.bodyul1 li{
+				position: relative;
+				top: 35px;
+				left: 240px;
+			}
+			.bodyul1 li:hover{
+				color:forestgreen;
+			}
+			.bodyul1{
+				display: flex;
+				justify-content:space-around;
+				width: 740px;
+			}
+			.bodyinput{
+				width: 200px;
+			}
+			.ec6{
+				width: 280px;
+				height: 45px;
+				text-align: center;	
+				font-size: 18px;
+				border: none;
+				border-radius: 5px;
+				background-color:#CCCCCC;
+				position: relative;
+				left: 980px;
+				top: -75px;
+			}
+			.ec6:hover{
+				background-color: white;
+			}
+			.but:hover{
+				background-color: orange;
+			}
+			.but{
+				height: 45px;
+				width: 45px;
+				background-color:forestgreen;
+				text-align: center;
+		
+				border-top-right-radius: 5px;
+				border-bottom-right-radius: 5px;
+				position:absolute;
+				right: 115px;
+				top: 77px;line-height: 45px;
+				color: #fff;
+			}
+			.img3{
+				width: 1300px;
+				height: 455px;
+				background-image: url(image/banner2.jpg);
+				background-size: 100% 100%;
+				margin-top: -50px;
+				border-radius: 7px;
+				box-shadow: 0 0 10px 2px #000000;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="top">
+			<ul class="ul1">
+				<li id="ecsc">EC商城</li>
+				<li class="i"></li>
+				<li>游戏</li>
+				<li class="i"></li>
+				<li>云服务</li>
+				<li class="i"></li>
+				<li>金融</li>
+				<li class="i"></li>
+				<li>问题反馈</li>
+			</ul>
+			<ul class="ul2">
+				<li>登录</li>
+				<li class="i"></li>
+				<li>注册</li>
+				<li class="i"></li>
+				<li>消息通知</li>
+				<li id="gwc">购物车</li>
+			</ul>
+		</div>
+	<div class="body">
+		<div class="bodytop">
+			<img src="image/logo_top.png" class="img1"/>
+			<img src="image/yyymix.gif" class="img2"/>
+			<ul class="bodyul1">
+				<li class="txt1">EC手机</li>
+				<li class="txt1">ER手机</li>
+				<li class="txt1">平板笔记</li>
+				<li class="txt1">电视</li>
+				<li class="txt1">盒子</li>
+				<li class="txt1">路由</li>
+				<li class="txt1">智能</li>
+				<li class="txt1">服务</li>
+				<li class="txt1">社区</li>
+			</ul>
+		</div>
+		<div class="bodyinput">
+			<input type="text" value=""placeholder="EC6 EC MIX现货" class="ec6" />
+			<div class="but">搜索</div>
+		</div>
+		<div class="img3">
+			<div>
+				
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
